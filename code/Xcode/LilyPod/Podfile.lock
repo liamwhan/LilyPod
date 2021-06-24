@@ -1,0 +1,16 @@
+PODS:
+  - ffmpeg-kit-macos-min-gpl (4.4)
+
+DEPENDENCIES:
+  - ffmpeg-kit-macos-min-gpl (~> 4.4.LTS)
+
+SPEC REPOS:
+  trunk:
+    - ffmpeg-kit-macos-min-gpl
+
+SPEC CHECKSUMS:
+  ffmpeg-kit-macos-min-gpl: 3649582f347bc12bf6a098e593339708bda16651
+
+PODFILE CHECKSUM: d9cc309f13b0ec6df10e4bebfba0522cdffca4b8
+
+COCOAPODS: 1.10.1

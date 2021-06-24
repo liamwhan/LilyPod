@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C7A280E2625232A00345A9D /* wav_gui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A280B2625232900345A9D /* wav_gui.cpp */; };
+		0C7A280F2625232A00345A9D /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A280C2625232900345A9D /* main.mm */; };
+		0C7A28102625232A00345A9D /* wav.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A280D2625232A00345A9D /* wav.cpp */; };
+		0C7A281A2625236E00345A9D /* imgui_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A28132625236E00345A9D /* imgui_tables.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0C7A281B2625236E00345A9D /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A28142625236E00345A9D /* imgui.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0C7A281C2625236E00345A9D /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A28152625236E00345A9D /* imgui_demo.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0C7A281D2625236E00345A9D /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A28172625236E00345A9D /* imgui_widgets.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0C7A281E2625236E00345A9D /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A28182625236E00345A9D /* imgui_draw.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0C7A28232625239C00345A9D /* imgui_impl_glfw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A281F2625239C00345A9D /* imgui_impl_glfw.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0C7A28242625239C00345A9D /* imgui_impl_metal.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A28212625239C00345A9D /* imgui_impl_metal.mm */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0C88807F262520C20045D01D /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C88807D262520C20045D01D /* MetalKit.framework */; };
+		0C888080262520C20045D01D /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C88807E262520C20045D01D /* Metal.framework */; };
+		0C888082262520CA0045D01D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C888081262520CA0045D01D /* Cocoa.framework */; };
+		0C888084262520D40045D01D /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C888083262520D40045D01D /* IOKit.framework */; };
+		0C888086262520E00045D01D /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C888085262520E00045D01D /* CoreVideo.framework */; };
+		0C888088262520F30045D01D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C888087262520F30045D01D /* QuartzCore.framework */; };
+		0CF6977E26267099005006E7 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF6977D26267099005006E7 /* UniformTypeIdentifiers.framework */; };
+		6DFCCCE52684116300A6013A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DFCCCE42684116300A6013A /* Images.xcassets */; };
+		7EEB0E98D7769B675A6AB624 /* Pods_LilyPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E7CBA1E9CB612FE33E14A2 /* Pods_LilyPod.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6D255646266761DD008BC706 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4E62FB26687D8600E0C720 /* Embed XPC Services */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed XPC Services";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4E6302266887A000E0C720 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C7A280B2625232900345A9D /* wav_gui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wav_gui.cpp; path = ../../wav_gui.cpp; sourceTree = "<group>"; };
+		0C7A280C2625232900345A9D /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = ../../main.mm; sourceTree = "<group>"; };
+		0C7A280D2625232A00345A9D /* wav.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wav.cpp; path = ../../wav.cpp; sourceTree = "<group>"; };
+		0C7A28112625234F00345A9D /* wav_gui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wav_gui.h; path = ../../wav_gui.h; sourceTree = "<group>"; };
+		0C7A28122625234F00345A9D /* wav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wav.h; path = ../../wav.h; sourceTree = "<group>"; };
+		0C7A28132625236E00345A9D /* imgui_tables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_tables.cpp; path = ../../imgui/imgui_tables.cpp; sourceTree = "<group>"; };
+		0C7A28142625236E00345A9D /* imgui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui.cpp; path = ../../imgui/imgui.cpp; sourceTree = "<group>"; };
+		0C7A28152625236E00345A9D /* imgui_demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_demo.cpp; path = ../../imgui/imgui_demo.cpp; sourceTree = "<group>"; };
+		0C7A28162625236E00345A9D /* imgui_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgui_internal.h; path = ../../imgui/imgui_internal.h; sourceTree = "<group>"; };
+		0C7A28172625236E00345A9D /* imgui_widgets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_widgets.cpp; path = ../../imgui/imgui_widgets.cpp; sourceTree = "<group>"; };
+		0C7A28182625236E00345A9D /* imgui_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_draw.cpp; path = ../../imgui/imgui_draw.cpp; sourceTree = "<group>"; };
+		0C7A28192625236E00345A9D /* imgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgui.h; path = ../../imgui/imgui.h; sourceTree = "<group>"; };
+		0C7A281F2625239C00345A9D /* imgui_impl_glfw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_impl_glfw.cpp; path = ../../imgui/backends/imgui_impl_glfw.cpp; sourceTree = "<group>"; };
+		0C7A28202625239C00345A9D /* imgui_impl_glfw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgui_impl_glfw.h; path = ../../imgui/backends/imgui_impl_glfw.h; sourceTree = "<group>"; };
+		0C7A28212625239C00345A9D /* imgui_impl_metal.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = imgui_impl_metal.mm; path = ../../imgui/backends/imgui_impl_metal.mm; sourceTree = "<group>"; };
+		0C7A28222625239C00345A9D /* imgui_impl_metal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgui_impl_metal.h; path = ../../imgui/backends/imgui_impl_metal.h; sourceTree = "<group>"; };
+		0C8880612625202A0045D01D /* LilyPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LilyPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C88807D262520C20045D01D /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		0C88807E262520C20045D01D /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		0C888081262520CA0045D01D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0C888083262520D40045D01D /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		0C888085262520E00045D01D /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0C888087262520F30045D01D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0CF6977D26267099005006E7 /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
+		27E7CBA1E9CB612FE33E14A2 /* Pods_LilyPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LilyPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9069180EBE66C020346D39 /* Pods-LilyPod Audio Utility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LilyPod Audio Utility.release.xcconfig"; path = "Target Support Files/Pods-LilyPod Audio Utility/Pods-LilyPod Audio Utility.release.xcconfig"; sourceTree = "<group>"; };
+		6DFCCCE42684116300A6013A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LilyPod/Images.xcassets; sourceTree = "<group>"; };
+		77A8B4FE3C6739A8260BD658 /* Pods-LilyPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LilyPod.release.xcconfig"; path = "Target Support Files/Pods-LilyPod/Pods-LilyPod.release.xcconfig"; sourceTree = "<group>"; };
+		CE7A17ECCDD404B729E241AD /* Pods-LilyPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LilyPod.debug.xcconfig"; path = "Target Support Files/Pods-LilyPod/Pods-LilyPod.debug.xcconfig"; sourceTree = "<group>"; };
+		F670B5589B91A1B0C7316C6D /* Pods-LilyPod Audio Utility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LilyPod Audio Utility.debug.xcconfig"; path = "Target Support Files/Pods-LilyPod Audio Utility/Pods-LilyPod Audio Utility.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C88805E2625202A0045D01D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF6977E26267099005006E7 /* UniformTypeIdentifiers.framework in Frameworks */,
+				0C888080262520C20045D01D /* Metal.framework in Frameworks */,
+				0C88807F262520C20045D01D /* MetalKit.framework in Frameworks */,
+				0C888088262520F30045D01D /* QuartzCore.framework in Frameworks */,
+				0C888082262520CA0045D01D /* Cocoa.framework in Frameworks */,
+				0C888084262520D40045D01D /* IOKit.framework in Frameworks */,
+				0C888086262520E00045D01D /* CoreVideo.framework in Frameworks */,
+				7EEB0E98D7769B675A6AB624 /* Pods_LilyPod.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C8880582625202A0045D01D = {
+			isa = PBXGroup;
+			children = (
+				6DFCCCE42684116300A6013A /* Images.xcassets */,
+				0C7A281F2625239C00345A9D /* imgui_impl_glfw.cpp */,
+				0C7A28202625239C00345A9D /* imgui_impl_glfw.h */,
+				0C7A28222625239C00345A9D /* imgui_impl_metal.h */,
+				0C7A28212625239C00345A9D /* imgui_impl_metal.mm */,
+				0C7A28152625236E00345A9D /* imgui_demo.cpp */,
+				0C7A28182625236E00345A9D /* imgui_draw.cpp */,
+				0C7A28162625236E00345A9D /* imgui_internal.h */,
+				0C7A28132625236E00345A9D /* imgui_tables.cpp */,
+				0C7A28172625236E00345A9D /* imgui_widgets.cpp */,
+				0C7A28142625236E00345A9D /* imgui.cpp */,
+				0C7A28192625236E00345A9D /* imgui.h */,
+				0C7A28112625234F00345A9D /* wav_gui.h */,
+				0C7A28122625234F00345A9D /* wav.h */,
+				0C7A280C2625232900345A9D /* main.mm */,
+				0C7A280B2625232900345A9D /* wav_gui.cpp */,
+				0C7A280D2625232A00345A9D /* wav.cpp */,
+				0C8880622625202A0045D01D /* Products */,
+				0C88807C262520C20045D01D /* Frameworks */,
+				622D47AAB175247E5A661C95 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0C8880622625202A0045D01D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C8880612625202A0045D01D /* LilyPod.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C88807C262520C20045D01D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CF6977D26267099005006E7 /* UniformTypeIdentifiers.framework */,
+				0C888087262520F30045D01D /* QuartzCore.framework */,
+				0C888085262520E00045D01D /* CoreVideo.framework */,
+				0C888083262520D40045D01D /* IOKit.framework */,
+				0C888081262520CA0045D01D /* Cocoa.framework */,
+				0C88807E262520C20045D01D /* Metal.framework */,
+				0C88807D262520C20045D01D /* MetalKit.framework */,
+				27E7CBA1E9CB612FE33E14A2 /* Pods_LilyPod.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		622D47AAB175247E5A661C95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F670B5589B91A1B0C7316C6D /* Pods-LilyPod Audio Utility.debug.xcconfig */,
+				5A9069180EBE66C020346D39 /* Pods-LilyPod Audio Utility.release.xcconfig */,
+				CE7A17ECCDD404B729E241AD /* Pods-LilyPod.debug.xcconfig */,
+				77A8B4FE3C6739A8260BD658 /* Pods-LilyPod.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C8880602625202A0045D01D /* LilyPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C8880752625202B0045D01D /* Build configuration list for PBXNativeTarget "LilyPod" */;
+			buildPhases = (
+				32836FD9CF5DA58CC20FEB9F /* [CP] Check Pods Manifest.lock */,
+				0C88805D2625202A0045D01D /* Sources */,
+				0C88805E2625202A0045D01D /* Frameworks */,
+				0C88805F2625202A0045D01D /* Resources */,
+				6D255646266761DD008BC706 /* Embed Libraries */,
+				6D4E62FB26687D8600E0C720 /* Embed XPC Services */,
+				6D4E6302266887A000E0C720 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LilyPod;
+			productName = "LilyPod Audio Utility";
+			productReference = 0C8880612625202A0045D01D /* LilyPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C8880592625202A0045D01D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0C8880602625202A0045D01D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 0C88805C2625202A0045D01D /* Build configuration list for PBXProject "LilyPod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C8880582625202A0045D01D;
+			productRefGroup = 0C8880622625202A0045D01D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C8880602625202A0045D01D /* LilyPod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C88805F2625202A0045D01D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DFCCCE52684116300A6013A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32836FD9CF5DA58CC20FEB9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LilyPod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C88805D2625202A0045D01D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7A28102625232A00345A9D /* wav.cpp in Sources */,
+				0C7A28242625239C00345A9D /* imgui_impl_metal.mm in Sources */,
+				0C7A280F2625232A00345A9D /* main.mm in Sources */,
+				0C7A28232625239C00345A9D /* imgui_impl_glfw.cpp in Sources */,
+				0C7A281C2625236E00345A9D /* imgui_demo.cpp in Sources */,
+				0C7A281A2625236E00345A9D /* imgui_tables.cpp in Sources */,
+				0C7A280E2625232A00345A9D /* wav_gui.cpp in Sources */,
+				0C7A281B2625236E00345A9D /* imgui.cpp in Sources */,
+				0C7A281D2625236E00345A9D /* imgui_widgets.cpp in Sources */,
+				0C7A281E2625236E00345A9D /* imgui_draw.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0C8880732625202B0045D01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = $SRCROOT/LilyPod/LilyPod.entitlements;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"WAV_INTERNAL=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$SRCROOT/../../imgui/**",
+					"$SRCROOT/../../imgui/backends/**",
+					$SRCROOT/../../,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0C8880742625202B0045D01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = $SRCROOT/LilyPod/LilyPod.entitlements;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$SRCROOT/../../imgui/**",
+					"$SRCROOT/../../imgui/backends/**",
+					$SRCROOT/../../,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0C8880762625202B0045D01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE7A17ECCDD404B729E241AD /* Pods-LilyPod.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = $SRCROOT/LilyPod/LilyPod.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9LU26K375T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXCLUDED_ARCHS = arm64;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../imgui/backends",
+					"$(SRCROOT)/../../imgui",
+					"/usr/local/Cellar/glfw/3.3.4/include/**",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/LilyPod/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/usr/local/Cellar/**",
+					"/usr/local/lib/**",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"bz2\"",
+					"-l\"c++\"",
+					"-l\"iconv\"",
+					"-l\"z\"",
+					"-l\"glfw\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreAudio\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"OpenCL\"",
+					"-framework",
+					"\"OpenGL\"",
+					"-framework",
+					"\"VideoToolbox\"",
+					"-framework",
+					"\"ffmpegkit\"",
+					"-framework",
+					"\"libavcodec\"",
+					"-framework",
+					"\"libavdevice\"",
+					"-framework",
+					"\"libavfilter\"",
+					"-framework",
+					"\"libavformat\"",
+					"-framework",
+					"\"libavutil\"",
+					"-framework",
+					"\"libswresample\"",
+					"-framework",
+					"\"libswscale\"",
+					"-framework",
+					"\"libvidstab\"",
+					"-framework",
+					"\"x264\"",
+					"-framework",
+					"\"x265\"",
+					"-framework",
+					"\"xvidcore\"",
+					"-Wl,-no_compact_unwind",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tools.lilypod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"TARGETED_DEVICE_FAMILY[sdk=macosx*]" = "";
+			};
+			name = Debug;
+		};
+		0C8880772625202B0045D01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A8B4FE3C6739A8260BD658 /* Pods-LilyPod.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = $SRCROOT/LilyPod/LilyPod.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9LU26K375T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXCLUDED_ARCHS = arm64;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/ffmpeg-kit-macos-min-gpl\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/ffmpegkit\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/libavcodec\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/libavdevice\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/libavfilter\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/libavformat\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/libavutil\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/libswresample\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/libswscale\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/libvidstab\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/x264\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/x265\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/xvidcore\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../imgui/backends",
+					"$(SRCROOT)/../../imgui",
+					"/usr/local/Cellar/glfw/3.3.4/include/**",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/LilyPod/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/usr/local/Cellar/**",
+					"/usr/local/lib/**",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"bz2\"",
+					"-l\"c++\"",
+					"-l\"iconv\"",
+					"-l\"z\"",
+					"-l\"glfw\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreAudio\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"OpenCL\"",
+					"-framework",
+					"\"OpenGL\"",
+					"-framework",
+					"\"VideoToolbox\"",
+					"-framework",
+					"\"ffmpegkit\"",
+					"-framework",
+					"\"libavcodec\"",
+					"-framework",
+					"\"libavdevice\"",
+					"-framework",
+					"\"libavfilter\"",
+					"-framework",
+					"\"libavformat\"",
+					"-framework",
+					"\"libavutil\"",
+					"-framework",
+					"\"libswresample\"",
+					"-framework",
+					"\"libswscale\"",
+					"-framework",
+					"\"libvidstab\"",
+					"-framework",
+					"\"x264\"",
+					"-framework",
+					"\"x265\"",
+					"-framework",
+					"\"xvidcore\"",
+					"-Wl,-no_compact_unwind",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tools.lilypod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"TARGETED_DEVICE_FAMILY[sdk=macosx*]" = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C88805C2625202A0045D01D /* Build configuration list for PBXProject "LilyPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C8880732625202B0045D01D /* Debug */,
+				0C8880742625202B0045D01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C8880752625202B0045D01D /* Build configuration list for PBXNativeTarget "LilyPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C8880762625202B0045D01D /* Debug */,
+				0C8880772625202B0045D01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C8880592625202A0045D01D /* Project object */;
+}

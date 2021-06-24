@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "WriteWAV(char*, unsigned int, void*):wav.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "MemorySize">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PlatformShowFileOpenDialog(ui_state*):main.mm">
+      </ContextState>
+      <ContextState
+         contextName = "RenderUi(ui_state*):wav_gui.cpp">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

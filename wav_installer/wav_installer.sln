@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "wav_installer", "wav_installer.vdproj", "{1F8D990A-085B-45A1-B124-2D29E385B9BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F8D990A-085B-45A1-B124-2D29E385B9BA}.Debug|Default.ActiveCfg = Debug
+		{1F8D990A-085B-45A1-B124-2D29E385B9BA}.Debug|Default.Build.0 = Debug
+		{1F8D990A-085B-45A1-B124-2D29E385B9BA}.Release|Default.ActiveCfg = Release
+		{1F8D990A-085B-45A1-B124-2D29E385B9BA}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6239B27-6F9E-463A-A705-67C2801C5B9F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+build/
+publish/
+data/
+.vs/
+**/*.exe
+**/*.ilk
+**/*.pdb
+**/*.msi
+**/*.o
+code/podcast_utility
+**/.DS_Store
+.vscode/c_cpp_properties.json
+
+**/ffmpeg/
+glfw/
+**/Pods/**/*
+# VS generated project update reports
+**/*.htm
+**/*.html

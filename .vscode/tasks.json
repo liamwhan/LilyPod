@@ -1,0 +1,39 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Xplat Build",
+			
+			"windows": {
+				"command": "call",
+				"args": ["build.bat"],
+				"options": {
+					"cwd": "${workspaceFolder}"
+				},
+				"problemMatcher": "$msCompile"
+			},
+			"osx": {
+				"command": "make",
+				"args": [
+					"-f",
+					"./Makefile"
+				],
+				"options": {"cwd": "${workspaceFolder}/code"},
+				"problemMatcher": {
+					 "base": "$gcc",
+					 "fileLocation": ["absolute", "${workspaceRoot}/code"]
+				}
+			},
+			"command": "call",
+			"args": [
+				"build.bat"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Uses cl.exe on Win32 and gcc on OSX"
+		}
+	]
+}

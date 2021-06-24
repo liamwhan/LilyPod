@@ -1,0 +1,58 @@
+{
+    "files.associations": {
+        "string": "cpp",
+        "xmemory": "cpp",
+        "xstddef": "cpp",
+        "xstring": "cpp",
+        "xtr1common": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp",
+        "vector": "cpp"
+    },
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/code",
+        "${workspaceFolder}/code/imgui",
+        "${workspaceFolder}/code/imgui/backends",
+    ],
+    "C_Cpp.default.defines": ["WAV_SLOW", "WAV_WIN32", "WAV_INTERNAL"],
+    "todohighlight.keywords": [
+        {
+            "text": "TODO(liam):",
+            "color": "#fefefe",
+            "border": "#AB8BD0 1px solid",
+            "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+            "backgroundColor": "#AB8BD0"
+        },
+        {
+            "text": "NOTE(liam):",
+            "color": "#1E1E1E",
+            "border": "#B5B54A 1px solid",
+            "borderRadius": "2px",
+            "backgroundColor": "#B5B54A"
+        },
+        {
+            "text": "FIXME(liam):",
+            "color": "#FEFEFE",
+            "border": "#BB5B5B 1px solid",
+            "borderRadius": "2px",
+            "backgroundColor": "#BB5B5B"
+        },
+        {
+            "text": "BOOKMARK(liam):",
+            "color": "#fefefe",
+            "border": "#699C69 1px solid",
+            "borderRadius": "2px",
+            "backgroundColor": "#699C69"
+        },
+        {
+            "text": "INFO(liam):",
+            "color": "#fefefe",
+            "border": "#83AED1 1px solid",
+            "borderRadius": "2px",
+            "backgroundColor": "#83AED1"
+        }
+        
+    ],
+    "terminal.integrated.automationShell.windows": "cmd.exe"
+
+}
